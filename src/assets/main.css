@@ -1,0 +1,43 @@
+@import './base.css';
+
+#app {
+  display: grid;
+  font-weight: normal;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  color: #161919;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.addGroup {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.btnGroup .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-menu-item .ant-menu-title-content a:hover {
+  background: none;
+}
